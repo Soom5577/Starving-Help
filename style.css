@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #ed9797;
+  color: #333;
+  line-height: 1.6;
+}
+nav {
+  background: url(img/Download\ Table\ scene\ with\ a\ selection\ of\ delicious\ foods_\ Top\ view\ over\ a\ dark\ wood\ banner\ background\,\ generate\ ai\ for\ free.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding:  15px 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: #e63946;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url(img/download\ \(4\).gif) center/cover;
+  color: white;
+  
+  text-align: center;
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.hero button {
+  background: #e63946;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+.hero button:hover {
+  background: #d62828;
+  transform: scale(1.05);
+}
+
+.section {
+  padding: 70px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+.section h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.section p {
+  font-size: 35px;
+  color: #000000;
+}
+
+.donate-btn {
+  background: #e63946;
+  color: white;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 12px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+.donate-btn:hover {
+  background: #d62828;
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+footer p {
+  margin: 0;
+  color: #aaa;
+}
+@media (max-width: 670px) {
+   nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+  background-color: #000000;
+}
+}
+@media (max-width: 425px) {
+   nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 14px;
+  background-color: #000000;
+}
+}
